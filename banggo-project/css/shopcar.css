@@ -1,0 +1,189 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img { margin:0; padding:0; } 
+
+fieldset, img { border:none; } 
+
+ul, ol { list-style:none; } 
+
+a { color:#666; text-decoration:none; } 
+
+.logo_parent{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.shop_logo{
+	width: 1200px;
+	height: 42px;
+	margin: 0 auto;
+	margin-top:20px ;
+}
+.shop_logo p{
+	font-size: 18px;
+	line-height: 42px;
+	font-weight: bolder;
+	color: #000;
+}
+
+/* 购物车标题一列 */
+.car_title{
+	width: 1200px;
+	height: 40px;
+	background: rgb(248, 247, 247);
+	margin: 20px auto 20px;
+}
+.car_title li{
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+	width:210px;
+}
+.car_title input{
+	float: left;
+	margin: 13px 14px 0 20px;
+	width: 16px;
+	height: 16px;
+}
+
+
+/* 购物车结算 */
+.product{
+	width: 1200px;
+	height: auto;
+	border: 1px solid #dcdcdc;
+	margin: 0 auto;
+}
+.head{
+	width: 1200px;
+	height: 40px;
+	border: 1px solid #dcdcdc;
+	margin-bottom: none;
+	margin: 0 auto;
+	background: #fdf6ee;
+	line-height: 40px;
+	font-size: 12px;
+	margin-top: 30pxs;
+}
+.head span{
+	margin-left: 30px;
+}
+.head p{
+	float: right;
+	margin-right: 30px;
+}
+.product ul{
+	width: 1180px;
+	height: 140px;
+	
+	border-bottom:1px solid #dcdcdc ;
+	padding-left: 20px;
+}
+.product ul li{
+	width: 210px;
+	height: 140px;
+	float: left;
+}
+.product ul input{
+	float: left;
+	margin-top: 36px;
+}
+.product dl{
+	width: 300px;
+	height:100px;
+    padding: 35px 0;	
+}
+.product dl dt{
+	width: 78px;
+	height: 78px;
+	float: left;
+	margin-right: 3px;
+	border: 1px solid #dcdcdc;
+}
+.product dl img{
+	float: left;
+}
+.product dl dd:nth-of-type(1){
+	width: 200px;
+	font-size: 13px;
+	vertical-align: middle;
+    float: left;
+}
+.product li:nth-of-type(2),
+/* .product li:nth-of-type(3), */
+.product li:nth-of-type(4),
+.product li:nth-of-type(5){
+	line-height: 140px;
+	cursor: pointer;
+}
+.product li:nth-of-type(2){
+	font-weight: bold;
+	font-size: 17px;
+}
+.product dd:nth-of-type(2),
+.product dd:nth-of-type(3){
+	font-size: 13px;
+	color: #808080;
+}
+
+.product ul li:nth-of-type(1){
+	width: 300px;
+}
+.product li img{
+	width: 78px;
+	height: 78px;
+}
+.product li a{
+	width: 17px;
+	height: 25px;
+
+	display: inline-block;
+	background: #f0f0f0;
+
+	
+}
+.product li div{
+	width: 80px;
+	height: 25px;
+	background: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+    margin-top: 70px;
+}
+.product li a:nth-of-type(1){
+	float: left;
+	cursor: pointer;
+	border-right: 1px solid #dcdcdc;
+
+}
+.product li a:nth-of-type(2){
+	float: right;
+	cursor: pointer;
+	border-left: 1px solid #dcdcdc;
+
+}
+.total_money{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	background: #f7f7f7;
+	position: fixed;
+	bottom: 0;
+	left: 30px;
+	line-height: 50px;
+}
+.total_money span{
+	float: right;
+	font-size: 17px;
+}
+.total_money h6{
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	float: right;
+	margin-left: 10px;
+	margin-top: 5px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}

@@ -1,0 +1,109 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img { margin:0; padding:0; } 
+
+fieldset, img { border:none; } 
+
+img{display: block;} 
+
+ul, ol { list-style:none; } 
+
+a { color:#666; text-decoration:none; } 
+
+
+hgroup{
+	width: 100%;
+	height: 293px;
+}
+.foot{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+	margin-top: 53px;
+}
+.foot ul{
+	width: 839px;
+	height: 240px;
+	float: left;
+}
+.foot ul li{
+	width: 278px;
+	height: 238px;
+	float: left;
+	color: green;
+	margin-right: -1px;
+	border: 1px solid #dcdcdc;
+}
+.foot div{
+	width:359px ;
+	height: 238px;
+	float: left;
+	margin-left: -1px;
+	background: #fafafa;
+	border: 1px solid #dcdcdc;
+}
+.foot ol  li{
+	float: left;
+	width: 119px;
+	height: 88px;
+	text-align: center;
+}
+.foot ol li img{
+	margin:14px auto 8px;
+}
+.foot ol p{
+	font-weight: bold;
+    font-size: 12px;
+	color: #999;
+}
+.foot ol li{
+	border-right: 1px solid #dcdcdc;
+}
+.foot ol li:last-child{
+	border-right: none;
+}
+
+article{
+	width: 100%;
+	height: 290px;
+	background: url(../img/mbshop_bottom_guide.png) repeat-x;
+}
+.contact{
+	padding-top: 11px;
+	width: 1200px;
+	height: 175px;
+	margin: 0 auto;
+	border-bottom: 1px  solid #999;
+}
+.contact dl{
+	width: 200px;
+	height: auto;
+	float: left;
+}
+.contact dl dt{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+.contact dl dd{
+	padding-top: 13px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.sign{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+	color: #787878;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-top: 20px;
+}
+.sign img{
+	margin-top: 15px;
+	float: left;
+}
+.sign img:nth-of-type(1){
+	margin: 15px 10px 0 468px;
+}

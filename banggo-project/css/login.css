@@ -1,0 +1,252 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img { margin:0; padding:0; } 
+
+fieldset, img { border:none; } 
+
+img{display: block;} 
+
+ul, ol { list-style:none; } 
+
+a { color:#666; text-decoration:none; } 
+
+/* 开始内容编写  头部广告 */
+
+header{
+	width: 980px;
+	height: 100px;
+         margin: 0 auto;
+}
+header img{
+	line-height: 100px;
+	float: left;
+}
+.main{
+	width: 980px;
+	height: 480px;
+	margin: 0 auto;
+}
+.main .login_banner{
+	float: left;
+}
+.main .login{
+	width: 340px;
+	height: 480px;
+	float: left;
+}
+.title{
+		width: 340px;
+		height: 40px;
+}
+.title ul{
+	position: relative;
+	
+}
+.title ul li{
+	width: 112px;
+	height: 34px;
+	float: left;
+	line-height: 34px;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 4px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.title ul li:nth-of-type(2){
+	left: 113px;
+}
+.title ul li:nth-of-type(3){
+	left: 226px;
+}
+.title .active{
+	top: 0;
+	border-top:2px solid #c00;
+	border-bottom: none;
+	height: 39px;
+	line-height: 39px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.content{
+	padding-top: 12px;
+
+}
+
+.content span{
+	width: 80px;
+	height: 28px;
+    color: #666;
+	text-align: right;
+	font-size: 15px;
+	line-height: 28px;
+	margin-right: 3px;
+	display: inline-block;
+
+}
+.content input{
+	width: 230px;
+	height: 25px;
+	outline: none;
+}
+.content div{
+	margin: 17px 0;
+	position: relative;
+}
+.inner,
+.content div:nth-of-type(2) h6,
+.content div:nth-of-type(3) h6{
+	font-weight: normal;
+    position: absolute;
+	left:85px;
+	color: #666;
+	display: none;
+}
+.content div:nth-of-type(3) input{
+	width: 65px;
+}
+.content div em{
+	display: inline-block;
+	width: 100px;
+	height: 29px;
+    vertical-align: middle;
+	margin-left: 10px;
+	background: url(../img/loginCode1_02.png);
+}
+.change{
+	font-size: 14px;
+	color: #666;
+}
+.check{
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.content div:nth-of-type(4) input{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.content div:nth-of-type(4){
+	font-size: 14px;
+}
+#btn{
+	width:104px;
+	height: 33px;
+	display: inline-block;
+	line-height: 43px;
+	background: url(../img/buttons.png);
+}
+.content div:nth-of-type(5) a{
+	display: inline-block;
+	width: 60px;
+	color: #000;
+	height: 30px;
+	font-size: 13px;
+	float: right;
+	vertical-align: middle;
+	text-decoration: underline;
+	margin: 0 75px 0 10px;
+}
+.content div:nth-of-type(5) a:hover{
+	color: orange;
+}
+/* 底部内容 */
+.bottom{
+	width:318px;
+	height: 48px;
+	margin: 0 auto;
+	color: #333;
+	font-size: 13px;
+	line-height: 48px;
+	border-top: 1px solid #B5B5B5;
+}
+#res{
+	display: inline-block;
+    width: 95px;
+	height: 27px;
+	border-radius: 5px;
+	background: #f5f5f5;
+	line-height: 27px;
+	vertical-align: middle;
+	border: 1px solid #666;
+	text-align: center;
+	margin-left: 16px;
+	cursor: pointer;
+}
+.out{
+	border: 1px solid #B5B5B5;
+	border-top: none;
+	height: 440px;
+}
+.connect{
+	width:318px ;
+	height: 94px;
+	margin: 0 auto;
+	font-size: 14px;
+	border: 1px solid #efefef;
+}
+.connect span{
+	display: inline-block;
+	width: 313px;
+	height: 32px;
+	background: #efefef;
+	line-height: 32px;
+	padding-left: 5px;
+}
+.connect ul li em{
+	display: inline-block;
+	width: 30px;
+	height: 24px;
+	background: url(../img/icon_login.png);
+}
+.connect ul li:nth-of-type(1) em{
+	background-position:0 -8px;
+	vertical-align: middle;
+}
+.connect ul li:nth-of-type(2) em{
+	background-position:0 -58px;
+	vertical-align: middle;
+}
+.connect ul li:nth-of-type(3) em{
+	background-position:0 -104px;
+	vertical-align: middle;
+}
+.connect ul li:nth-of-type(3),
+.connect ul li:nth-of-type(2),
+.connect ul li:nth-of-type(1){
+	border-right: none;
+}
+.connect ul li:nth-of-type(4){
+	border-bottom: none;
+	border-left: none;
+	border-top: none;
+}
+.connect ul li:nth-of-type(1){
+	border-left: none;
+}
+
+
+.connect ul li{
+	width: 105px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #efefef;
+}
+.sign{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 13px;
+}
+.sign a{
+	color: #333;
+	margin: 0 2px;
+}
+.sign a:hover{
+	text-decoration: underline;
+}

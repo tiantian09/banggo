@@ -1,0 +1,522 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img { margin:0; padding:0; } 
+
+fieldset, img { border:none; } 
+
+ul, ol { list-style:none; } 
+
+a { color:#666; text-decoration:none; } 
+
+
+
+.login{
+				width: auto;
+				height: 30px;
+				float: left;
+				display: block;
+			}
+			.login:hover{box-shadow: 0 0 5px #ccc;}
+			.nav_right li a{
+				width: auto;
+				height: auto;
+				float: left;
+				display: block;
+				cursor: pointer;
+				position: relative;
+				z-index: 10;
+				background: #fff;
+				color: #666;
+				text-decoration: none;
+			}
+			.login:hover .loginmenu{
+				border-left: 1px solid #b5b5b5;
+				border-right: 1px solid #b5b5b5;
+				padding: 9px 24px 0 9px;
+			}
+			.banggo_parent:hover .mine_banggo{
+				border-left: 1px solid #b5b5b5;
+				border-right: 1px solid #b5b5b5;
+				padding: 9px 24px 0 9px;
+			}
+			
+
+			.loginstyle a:hover,.bang_go a:hover{
+				color: black;
+			}
+			.bang_go a:hover{
+				color:black
+			}
+			.loginstyle{
+				  width: 80px;
+					height:auto;
+					padding: 5px 10px 10px;
+					position: absolute;
+					top: 25px;left: 0;
+					background: #fff;
+					box-shadow: 0 0 5px #ccc;
+					display: none;
+					z-index: 5;
+					font-size: 12px;
+					border: 1px solid #b5b5b5;
+			}
+			/* 登录a标签 */
+			.loginmenu{
+				padding:9px 25px 0 10px;
+			}
+			/* 注册a标签的效果 */
+		.nav_right	ul li:nth-of-type(2) a{
+				margin: 9px 10px 0 10px;
+			}
+			/* 我的邦购 */
+			.mine_banggo{
+				padding: 9px 25px 0 10px;
+			}
+      /* 下载APP */
+			.app{
+				padding: 9px 25px 0 10px;
+			}			
+			
+			.loginstyle a,.bang_go a{
+				  margin-top: 5px;
+					float: left;
+					height:auto;
+					display: block;
+					clear: left;
+			}
+			 
+			  .bang_go{
+					width:61px;
+					height: auto;
+					display: none;
+					top: 25px;left: 0;
+					position: absolute;
+					background: #fff;
+					padding: 5px 10px 10px;
+					box-shadow: 0 0 5px #ccc;
+					border: 1px solid #B5B5B5;
+				}
+
+			
+			
+			  .login:hover .loginstyle{
+					display: block;
+				}
+				.banggo_parent:hover .bang_go{
+					display: block;
+				}
+			
+			
+			   nav{
+					 width: 100%;
+					 height: 32px;
+					border-bottom:1px solid #dcdcdc ;
+				}
+				.nav_right{
+					width: 1200px;
+					height: 33px;
+					margin: 0 auto;
+				}
+				.nav_right ul{
+					float: right;
+				}
+			  .nav_right ul li{
+					position: relative;
+					font-size: 12px;
+					float: left;
+				}
+				.loginmenu em,.mine_banggo em{
+					position: absolute;
+					width: 57px;
+					display: inline-block;
+					height: 2px;
+					z-index: 9;
+					background: white;
+					left: 0;				
+					}
+				.mine_banggo em{
+					width: 81px;
+					height: 2px;
+					left:0;
+					top: 25px;
+				}
+       .center{
+				 margin: 9px 10px 0 10px;
+			 }
+			.weibo{
+				 margin: 9px 3px 0 10px;
+			 }
+			 .weixin{
+			 	margin: 9px 10px 0 10px;
+			 }
+			 .mine_banggo i,.app i{
+				 width: 10px;
+				 height: 10px;
+				 position: absolute;
+				 display: inline-block;
+				 right: 11px;
+				 background: url(../img/sprit.png) 0 -45px;
+			 }
+				.banggo_parent:hover i{
+					right: 10px;
+				}
+				.app_parent:hover i{
+					right: 10px;
+				}
+				.app_parent ol{
+					width: 140px;
+					height: auto;
+					position: absolute;
+					top: 25px;
+					display: none;
+					padding: 10px;
+					background: #fff;
+					border: 1px solid #B5B5B5;
+					box-shadow: 0 0 5px #ccc;
+				}
+				.app_parent:hover .img{
+					display: block;
+				}
+				.app_parent ol img{
+					width: 140px;
+					height: 140px;
+				}
+				.app_parent em{
+					width: 81px;
+					height: 2px;
+					display: inline-block;
+					position: absolute;
+					background: #fff;
+					left:0;
+				}
+				.app_parent:hover .app{
+					border-left: 1px solid #b5b5b5;
+					border-right: 1px solid #b5b5b5;
+					padding: 9px 24px 0 9px;
+				}
+				.weixin_parent ol{
+					width: 140px;
+					height: 140px;
+					position: absolute;
+					left: -80px;
+					padding-top: 8px;
+					top: 25px;
+					background: #fff;
+					display: none;
+				}
+				.weixin_parent ol img{
+					width: 140px;
+					height: 140px;
+				}
+				.weixin_parent:hover ol{
+					display: block;
+				}
+
+.login ul{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: white;
+	text-align: center;
+	top: 29px;
+	padding-left: 15px;
+	border: 1px solid #B5B5B5;
+	z-index: 1;
+	display: none;
+}
+.login ul em{
+	position: absolute;
+	background: white;
+	width: 58px;
+	height: 5px;
+	top: -2px;
+	left: 0;
+}
+.download img{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
+
+
+
+/* logo部分开始 */
+.logo{
+	width:1200px;
+	height:65px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo img,logo input{
+	float: left;
+}
+.logo input{
+	width: 300px;
+	height: 39px;
+	vertical-align: middle;
+	border: 2px solid #d51819;
+	outline: none;
+	font-size: 14px;
+	float: left;
+}
+.logo .search{
+	width: 80px;
+	height: 39px;
+	color: #fff;
+	float: left;
+	background: #d51819;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px;
+}
+.logo .input{
+	display: inline-block;
+	margin-top: 25px;
+	position: relative;
+	float: left;
+}
+.input p{
+	position:absolute;
+	color:#999;
+	font-size: 14px;
+	left:5px;
+	top:11px;
+}
+.logo ul{
+	float: left;
+	margin:35px 0 0 15px;
+}
+.logo ul li{
+	float: left;
+	font-size: 13px;
+	margin:0 5px ;
+	color: #666;
+}
+.logo ul li:nth-of-type(2n){
+	color: #e2dce2;
+}
+.logo ul li:nth-of-type(3),
+.logo ul li:nth-of-type(9){
+	color: #d30a06;
+}
+.shoping{
+	width: 122px;
+	height: 30px;
+	float: right;
+	padding-left:48px ;
+	line-height: 28px;
+	font-size: 13px;
+	margin-top: 30px;
+	position: fixed;
+	right: -40px;
+	top: 100px;
+	z-index: 999;
+	box-shadow:0 0 10px rgba(0,0,0,.5) ;
+	background: url(../img/sprit.png);
+	background-position:0 -430px ;
+}
+.count{
+	color: #de4535;
+	margin: 0 4px;
+}
+
+/* logo下的导航 */
+.title{
+	width: 1200px;
+	height: 48px;
+	margin: 0 auto;
+}
+.title ul{
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.title ul li{
+	float: left;
+	font-size: 14px;
+	margin-right: 35px;
+	line-height: 40px;
+}
+.title ul li a{
+	color: #000000;
+}
+.title ul li a:hover{
+	color: #999;
+}
+.photo{
+	float: right;
+}
+.photo img{
+	float: left;
+}
+.photo img:nth-of-type(2){
+	margin: 0 30px 0 42px;
+}
+.photo img:nth-of-type(3){
+	margin-right: 20px;
+}
+
+/* 热销分类 */
+.hot,
+.clothes_man,
+.clothes_woman,
+.clothes_child,
+.clothes_box,
+.clothes_shoes,
+.clothes_shipin{
+	width: 335px;
+	height: auto;
+	padding: 30px 0;
+	position: absolute;
+	background: #fff;
+	box-shadow:0 0 5px #ccc ;
+	z-index: 9999;
+	top:35px;
+	left: -20px;
+	display: none;
+}
+.clothes_woman,
+.clothes_child{
+	width:450px;
+}
+.clothes_shoes,
+.clothes_box,
+.clothes_shipin{
+	width: 250px;
+}
+
+
+.parent,
+.men_parent,
+.women_parent,
+.child,
+.shoes,
+.box,
+.shipin{
+	position: relative;
+}
+
+.hot li{
+	width: 110px;
+	height: 530px;
+	float: left;
+	padding: 0 0 10px 0;
+}
+.clothes_man li{
+	width: 110px;
+	height: 335px;
+	padding: 0 0 10px 0;
+}
+.clothes_woman li,
+.clothes_child li{
+	width: 110px;
+	height: 350px;
+	padding: 0 0 10px 0;
+}
+.clothes_shoes li,
+.clothes_box li,
+.clothes_shipin li{
+	width: 110px;
+	height: 320px;
+	padding: 0 0 10px 0;
+}
+
+
+
+.hot li a,
+.clothes_man li a,
+.clothes_woman li a,
+.clothes_child li a,
+.clothes_shoes li a,
+.clothes_box li a,
+.clothes_shipin li a{
+	color: #222;
+	font-size: 12px;
+	display: block;
+}
+.hot li,
+.clothes_man li,
+.clothes_woman li,
+.clothes_child li,
+.clothes_box li,
+.clothes_shoes li,
+.clothes_shipin{
+	margin-right: 0;
+	text-align: center;
+}
+.hot li:nth-of-type(2),
+.clothes_man li:nth-of-type(2),
+.clothes_woman li:nth-of-type(2),
+.clothes_child li:nth-of-type(2){
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #f0f0f0;
+}
+.clothes_woman li:nth-of-type(3),
+.clothes_child li:nth-of-type(3){
+	border-right: 1px solid #f0f0f0 ;
+}
+.clothes_box li:nth-of-type(1),
+.clothes_shoes li:nth-of-type(1),
+.clothes_shipin li:nth-of-type(1){
+	border-right:1px solid #f0f0f0 ;
+}
+
+
+
+.hot li a{
+	margin: 0;
+}
+.hot li h3,
+.clothes_man li h3,
+.clothes_woman li h3,
+.clothes_child li h3,
+.clothes_box li h3,
+.clothes_shipin li h3,
+.clothes_shoes li h3{
+	color: #d22223;
+	font-weight: bold;
+}
+
+/* 移入显示下拉菜单 */
+.parent:hover .hot{
+	display: block;
+}
+.men_parent:hover .clothes_man{
+	display: block;
+}
+.women_parent:hover .clothes_woman{
+	display: block;
+}
+.child:hover .clothes_child{
+	display: block;
+}
+.shoes:hover .clothes_shoes{
+	display: block;
+}
+.shipin:hover  .clothes_shipin{
+	display: block;
+}
+.box:hover .clothes_box{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h{
+	width: 100%;
+	height: 750px;
+	background: pink;
+}

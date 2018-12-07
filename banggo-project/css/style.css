@@ -1,0 +1,403 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, 
+form, fieldset, legend, img { margin:0; padding:0; } 
+
+fieldset, img { border:none; } 
+
+ul, ol { list-style:none; } 
+
+a { color:#666; text-decoration:none; } 
+
+/* 开始内容编写  头部广告 */
+
+header{
+	height: 80px;
+	background: #e3422e;
+}
+header img{
+	margin: 0 auto;
+}
+
+/* 轮播图 */
+section{
+	width: 100%;
+	margin: 0 auto;
+	height: 750px;
+	background: #fff;
+}
+
+.banner{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.banner li{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+}
+.banner li:nth-of-type(1){
+	background: url(../img/pc_181127lb_01.jpg) center;
+}
+.banner li:nth-of-type(2){
+	background: url(../img/pc_181127lb_02.jpg) center;
+}
+.banner li:nth-of-type(3){
+	background: url(../img/pc_181127lb_03.jpg) center;
+}
+.banner li:nth-of-type(4){
+	background: url(../img/pc_181127lb_04.jpg) center;
+}
+.banner li:nth-of-type(5){
+	background: url(../img/pc_181127lb_05.jpg) center;
+}
+
+.index{
+	width: 1200px;
+	height: 150px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+.index li{
+	width: 220px;
+	height: 110px;
+	float: left;
+	margin: 20px 0;
+	padding: 0 10px;
+	position: relative;
+}
+.index li:nth-of-type(1),
+.index li:nth-of-type(2),
+.index li:nth-of-type(3),
+.index li:nth-of-type(4){
+	border-right: 1px solid #f0f0f0;
+}
+
+li.line::after{
+	content: " ";
+	position: absolute;
+	width: 100px;
+	border-bottom: 3px solid #d22223;
+	left: 50%;
+	margin-left: -50px;
+	bottom: -20px;
+}
+
+/* 热门品牌 */
+.hot_brand{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+}
+.hot_brand img:hover{
+	opacity: 0.6;
+}
+
+
+.hot_brand img,.special img{
+	float: left;
+}
+/* 全部背景颜色 */
+.background{
+	width: 100%;
+	height: auto;
+    background: #f7f7f7;
+}
+.special{
+	width: 1200px;
+	height: 594px;
+	margin: 0 auto;
+	
+}
+.special img:hover{
+	opacity: 0.6;
+}
+
+.today{
+	width: 1200px;
+	height: 757px;
+	margin: 0 auto;
+	background:#fff;
+	position: relative;
+}
+ .right_top{
+	position: absolute;
+	right: 40px;
+	top: 57px;
+	width: 100px;
+	height: 25px;
+    display: inline-block;
+}
+.today img:nth-of-type(1):hover{
+	opacity: 0.6;
+}
+
+.list{
+	width: 1200px;
+	height: 665px;
+}
+.list li,.list1 li,.list_woman li{
+	width: 230px;
+	height: 325px;
+	float: left;
+	margin-right: 12px;
+}
+.list li:nth-child(5n){
+	margin-right: 0;
+	float: right;
+}
+
+.list li img,.list1 li img,
+.list_woman li img{
+	width: 230px;
+	height: 230px;
+}
+.bottom_title{
+	width: 230px;
+	height: 40px;
+	margin-top: 10px;
+}
+.bottom_title span{
+	font-size: 14px;
+	color: #919191;
+}
+.bottom_title p{
+	display: inline-block;
+	width: 40px;
+	height: 18px;
+	background:  #fdedec;
+	border: 1px solid  #f8584f;
+	color:  #f8584f;
+	font-size: 13px;
+	margin-right: 20px;
+	float: right;
+	line-height: 18px;
+	text-align: center;
+}
+.bottom_title a{
+	font-size: 14px;
+	display: block;
+	color: #222;
+	margin: 5px 0 0 15px;
+}
+.price{
+	width: auto;
+	height: auto;
+	margin: 13px 0 0 15px;
+}
+.price b{
+	color: #f8584f;
+}
+.price i{
+	font-style: normal;
+	color: #919191;
+	font-size: 12px;
+	margin-left: 5px;
+	text-decoration: line-through;
+}
+
+/* 时尚男装 */
+.fashion_man{
+	width: 1200px;
+	height: 757px;
+	margin: 0 auto;
+}
+.list1{
+	width: 1200px;
+	height: 757px;
+} 
+.fashion_man .first{
+
+	float: left;
+	display: inline-block;
+}
+/* .fashion_man a:nth-of-type(2){
+	width: 480px;
+	height: 92px;
+} */
+.fashion_man a:nth-of-type(2) img{
+	float: left;
+}
+.fashion_man img:hover{
+	opacity: 0.8;
+}
+.list1 li,.list_woman li,.clothes_child li{
+	float: left;
+	background: #fff;
+}
+
+.list1 li:nth-of-type(1){
+	width: 472px;
+	overflow: hidden;
+}
+.list1 li:nth-of-type(1) img{
+	width: 100%;
+	height: 100%;
+}
+.list1 li:nth-of-type(4),
+.list1 li:nth-of-type(8){
+	margin-right: 0;
+	float: right;
+}
+.list1 li:nth-of-type(1),
+.list1 li:nth-of-type(2),
+.list1 li:nth-of-type(3),
+.list1 li:nth-of-type(4),
+.list_woman li:nth-of-type(1),
+.list_woman li:nth-of-type(2),
+.list_woman li:nth-of-type(3),
+.list_woman li:nth-of-type(4){
+	margin-bottom:15px ;
+}
+
+/* 时尚女装 */
+.fashion_woman{
+	width: 1200px;
+	height: 762px;
+	margin: 0 auto;
+}
+.fashion_woman a img{
+	/* float: left; */
+	display: inline-block;
+}
+.width{
+	width: 695px;
+	height: 92px;
+}
+.list_woman{
+	width: 1200px;
+	height: 757px;
+}
+.list_woman li:nth-of-type(4){
+	width: 472px;
+	height: 325px;
+	overflow: hidden;
+	margin-right: 0;
+	float: right;
+}
+.list_woman li:nth-of-type(4) img{
+	width: 472px;
+    height: 100%;
+}
+.list_woman li:nth-of-type(9){
+	margin-right:0 ;
+	float: right;
+}
+.fashion_woman img:hover{
+	opacity: 0.8;
+}
+/* 儿童专区 */
+.children{
+	width: 1200px;
+	height: 757px;
+	margin: 0 auto;
+}
+.children img:hover{
+	opacity: 0.8;
+}
+.children_list{
+	width:1200px;
+	height: 757px;
+}
+.children a img{
+	display: inline-block;
+}
+.children_list li{
+	width: 230px;
+	height: 325px;
+	float: left;
+	background: #fff;
+	margin-right: 12px;
+}
+.children_list li img{
+	width: 230px;
+	height: 230px;
+}
+.children_list li:nth-of-type(2),
+.children_list li:nth-of-type(3),
+.children_list li:nth-of-type(4){
+	margin-bottom: 15px;
+}
+.children_list a img{
+	display: inline-block;
+}
+.children_list li:nth-of-type(1){
+	width: 472px;
+	height: 325px;
+	overflow: hidden;
+}
+.children_list li:nth-of-type(1) img{
+	width: 472px;
+	height: 325px;
+}
+.children_list li:nth-of-type(4),
+.children_list li:nth-of-type(9){
+	margin-right: 0;
+	float: right;
+}
+
+.cover{
+	width: 100%;
+	height: 40px;
+	background: #666;
+	position: absolute;
+  bottom: 0px;
+	left:0;
+  opacity: 0.7;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+	font-style: normal;
+  cursor: pointer;
+}
+
+
+/* 鞋包搭配 */
+
+  .shoes_bag{
+	  width: 1200px;
+	  height: 757px;
+	  margin: 0 auto;
+  }
+  .shoes_bag a img{
+	  display: inline-block;
+  }
+  .bag_list{
+	  width: 1200px;
+	  height: 757px;
+  }
+  .bag_list li{
+	  width:230px;
+	  height: 325px;
+	  float: left;
+	  margin-right: 12px;
+	  background: #fff;
+  }
+  
+  .bag_list li img{
+  	width:230px;
+  	height: 230px;
+  }
+  .bag_list li:nth-of-type(4){
+  width:472px;
+  height: 325px;
+  overflow: hidden;
+  margin-right: 0;
+  float: right;
+  }
+  .bag_list li:nth-of-type(4) img{
+	  width: 472px;
+	  height: 325px;
+  }
+  .bag_list li:nth-of-type(9){
+	  margin-right: 0;
+	  float: right;
+  }
+  .bag_list li:nth-of-type(1),
+  .bag_list li:nth-of-type(2),
+  .bag_list li:nth-of-type(3),
+  .bag_list li:nth-of-type(4){
+	  margin-bottom: 15px;
+  }
